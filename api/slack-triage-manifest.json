@@ -1,0 +1,41 @@
+{
+  "name": "slack-triage",
+  "type": "task",
+  "display_name": "Slack Triage",
+  "collection": "slack-triage",
+  "collection_version": "1.0.0",
+  "version": "1.0.0",
+  "eol_date": null,
+  "eol_warning_days": 60,
+  "stateful": true,
+  "produces_artifacts": false,
+  "produces_shared_artifacts": false,
+  "setup_template": "slack-triage-setup.md",
+  "dependency_status": "complete",
+  "missing_dependencies": [],
+  "parameter_provenance": {
+    "delivery_method": "org-mandated",
+    "default_monitored_channels": "org-mandated",
+    "default_response_threshold_hours": "org-mandated",
+    "max_items_per_run": "org-mandated",
+    "urgency_sensitivity": "role-suggested",
+    "slack_user_id": "member-defined",
+    "slack_display_name": "member-defined",
+    "delivery_channel_id": "member-defined",
+    "monitored_channels": "member-overridable",
+    "response_threshold_hours": "member-overridable",
+    "scan_window_hours": "member-defined",
+    "vip_senders": "member-defined",
+    "ignore_senders": "member-defined",
+    "ignore_channels": "member-defined"
+  },
+  "dependencies": {
+    "skills": [],
+    "tasks": []
+  },
+  "external_dependencies": [
+    "Slack MCP"
+  ],
+  "reads_from": null,
+  "writes_to": null
+}
