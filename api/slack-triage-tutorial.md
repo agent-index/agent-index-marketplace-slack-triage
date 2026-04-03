@@ -1,7 +1,7 @@
 ---
 name: slack-triage-tutorial
 type: skill
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Explains the slack-triage collection to members — its concepts, workflows, and how to be productive with it — through a guided tour or targeted answers to specific questions. Covers response debt, detection, training, and configuration.
 stateful: false

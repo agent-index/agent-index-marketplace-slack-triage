@@ -6,6 +6,11 @@ Format: [MAJOR.MINOR.PATCH] — YYYY-MM-DD
 
 ---
 
+## [1.1.0] — 2026-04-02
+
+### Added
+- `slack-triage-tutorial` skill — interactive guided tour and targeted Q&A for member onboarding covering collection concepts, workflows, response debt, detection, training, and configuration
+
 ## [1.0.0] — 2026-03-26
 
 ### Added

@@ -1,7 +1,7 @@
 {
   "name": "slack-triage",
   "display_name": "Slack Triage",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scan Slack for messages that need your response — unanswered DMs, @mentions, thread replies, and questions directed at you — and deliver a prioritized summary.",
   "author": "agent-index",
   "license": "proprietary",
