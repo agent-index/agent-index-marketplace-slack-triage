@@ -10,7 +10,8 @@
   "api": [
     "slack-triage",
     "slack-triage-config",
-    "slack-triage-train"
+    "slack-triage-train",
+    "slack-triage-tutorial"
   ],
   "dependencies": [],
   "external_dependencies": [
