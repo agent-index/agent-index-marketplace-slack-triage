@@ -1,15 +1,21 @@
 {
   "name": "slack-triage-tutorial",
   "type": "skill",
-  "version": "1.1.0",
+  "display_name": "Slack Triage Tutorial",
   "collection": "slack-triage",
-  "description": "Explains the slack-triage collection to members — its concepts, workflows, and how to be productive with it — through a guided tour or targeted answers to specific questions.",
-  "invocation_methods": [
-    "manual"
-  ],
-  "skill_tags": [
-    "onboarding",
-    "tutorial",
-    "help"
-  ]
+  "collection_version": "1.1.0",
+  "version": "1.1.0",
+  "eol_date": null,
+  "eol_warning_days": 60,
+  "stateful": false,
+  "always_on_eligible": false,
+  "setup_template": "slack-triage-tutorial-setup.md",
+  "dependency_status": "complete",
+  "missing_dependencies": [],
+  "parameter_provenance": {},
+  "dependencies": {
+    "skills": [],
+    "tasks": []
+  },
+  "external_dependencies": []
 }

@@ -1,7 +1,7 @@
 ---
 name: slack-triage-collection-setup
 type: collection-setup
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Org-admin setup for the slack-triage collection — configures delivery method, default monitored channels, and response thresholds for all members.
 upgrade_compatible: true
@@ -85,6 +85,9 @@ N/A.
 
 ### Requires Admin Attention
 - If new org-mandated parameters are added in a future version, the admin will be prompted to configure them.
+
+### Requires Member Attention
+None for PATCH/MINOR upgrades. MAJOR version upgrades will document required member actions here.
 
 ### Migration Notes
 - v1.0 → future versions: migration notes will be added here as new versions are published.

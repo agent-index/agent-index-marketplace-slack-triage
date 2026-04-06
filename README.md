@@ -13,6 +13,7 @@ Over time, a built-in training loop lets you correct what the system flags (or m
 - **slack-triage** (task) — The core scan. Checks DMs, mentions, threads, and monitored channels for messages awaiting your response. Evaluates urgency and delivers a prioritized summary.
 - **slack-triage-config** (skill) — Interactive configuration management. Add or remove monitored channels, manage VIP senders, adjust response-time thresholds, and configure ignore patterns.
 - **slack-triage-train** (skill) — Review and correct triage decisions from recent runs. Corrections accumulate into sender rules and context patterns that improve future accuracy.
+- **slack-triage-tutorial** (skill) — Guided walkthrough of the Slack triage system. Explains concepts, workflows, and answers specific questions about channel monitoring, training, and configuration. Say `@ai:slack-triage-tutorial` to start.
 
 ## Prerequisites
 
