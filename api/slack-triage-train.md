@@ -1,7 +1,7 @@
 ---
 name: slack-triage-train
 type: skill
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Review triage decisions from recent runs and record corrections that improve future accuracy.
 stateful: true

@@ -1,7 +1,7 @@
 ---
 name: slack-triage
 type: task
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Scan Slack for messages awaiting the member's response — unanswered DMs, @mentions, thread replies, and channel questions — then prioritize and deliver a structured summary.
 stateful: true

@@ -1,7 +1,7 @@
 ---
 name: slack-triage-config-setup
 type: setup
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Setup for the slack-triage-config skill — installs the interactive settings management interface.
 target: slack-triage-config

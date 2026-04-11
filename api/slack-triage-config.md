@@ -1,7 +1,7 @@
 ---
 name: slack-triage-config
 type: skill
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Interactively manage Slack triage settings — monitored channels, VIP senders, ignore lists, response thresholds, and urgency sensitivity.
 stateful: true

@@ -1,7 +1,7 @@
 ---
 name: slack-triage-setup
 type: setup
-version: 1.0.0
+version: 1.1.0
 collection: slack-triage
 description: Setup for the slack-triage task — configures Slack identity, monitored channels, response thresholds, and delivery preferences.
 target: slack-triage
