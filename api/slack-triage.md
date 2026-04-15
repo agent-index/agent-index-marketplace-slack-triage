@@ -235,7 +235,7 @@ Output the same formatted summary directly in the conversation.
 
 ## Error Handling
 
-- If Slack access fails, deliver an error message: "Slack Triage failed: could not access Slack. Please check MCP server connection."
+- If Slack access fails, deliver an error message: "Slack Triage failed: could not access Slack. Please check your Slack MCP connector."
 - If a specific channel is inaccessible (permissions, archived), note the error and continue scanning other channels.
 - If Slack delivery fails and delivery_method is `slack`, fall back to outputting the summary in chat.
 - If the workspace has 0 flagged messages, deliver the "no messages waiting" message.
