@@ -1,17 +1,17 @@
 {
   "name": "slack-triage",
   "display_name": "Slack Triage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Scan Slack for messages that need your response — unanswered DMs, @mentions, thread replies, and questions directed at you — and deliver a prioritized summary.",
   "author": "agent-index",
   "license": "proprietary",
   "category": "communication",
   "agent_index_min_version": "3.0.0",
   "api": [
-    "slack-triage",
-    "slack-triage-config",
-    "slack-triage-train",
-    "slack-triage-tutorial"
+    {"name":"slack-triage","triggers":[{"phrase":"triage my Slack","capability":"slack-triage","description":"Scan Slack for messages needing your response"},{"phrase":"what's important in Slack","capability":"slack-triage","description":"Surface priority Slack messages"},{"phrase":"Slack summary","capability":"slack-triage","description":"Get a summary of messages needing attention"},{"phrase":"check my Slack","capability":"slack-triage","description":"Review unanswered DMs, mentions, and threads"}]},
+    {"name":"slack-triage-config","triggers":[{"phrase":"configure Slack triage","capability":"slack-triage-config","description":"Adjust Slack triage channels and settings"},{"phrase":"change my Slack settings","capability":"slack-triage-config","description":"Modify Slack triage configuration"}]},
+    {"name":"slack-triage-train","triggers":[{"phrase":"train Slack triage","capability":"slack-triage-train","description":"Improve triage accuracy with feedback"},{"phrase":"Slack triage got this wrong","capability":"slack-triage-train","description":"Correct a misclassified Slack message"}]},
+    {"name":"slack-triage-tutorial","triggers":[{"phrase":"how does Slack triage work","capability":"slack-triage-tutorial","description":"Learn how to use Slack triage features"}]}
   ],
   "dependencies": [],
   "external_dependencies": [
