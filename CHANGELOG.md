@@ -1,5 +1,12 @@
 # Slack Triage — Changelog
 
+## [1.1.2] — 2026-06-06 — fleet docs hygiene (post-audit sweep)
+
+### Fixed (docs only)
+
+- Tutorial setup template disambiguates the install path as the LOCAL workspace via native file tools (deprecated remote `/members/` spaces are not involved).
+- All capability manifests re-stamped with the correct `collection_version` (preflight Check 2 compliance).
+
 All notable changes documented here.
 
 Format: [MAJOR.MINOR.PATCH] — YYYY-MM-DD

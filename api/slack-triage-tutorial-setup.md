@@ -29,7 +29,7 @@ No member-configurable parameters.
 
 ## Setup Completion
 
-1. Write the installed instance to `/members/{member_hash}/skills/slack-triage-tutorial/`
+1. Write the installed instance (using native file tools — this is the LOCAL workspace, not the deprecated remote `/members/` space) to `members/{member_hash}/skills/slack-triage-tutorial/`
 2. Write `manifest.json`
 3. Write empty `setup-responses.md`
 4. Register entry in `member-index.json` with alias `@ai:slack-triage-tutorial`
